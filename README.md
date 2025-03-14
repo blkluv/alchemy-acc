@@ -2,8 +2,6 @@
 
 A decentralized crowdfunding platform built with Next.js, React, and Alchemy's Account Kit that allows users to create and support campaigns using cryptocurrency. This project showcases modern web3 development techniques and best practices.
 
-![Crowdfunding dApp Screenshot](packages/nextjs/public/screenshot.png)
-
 ## ✨ Features
 
 - **Create Campaigns**: Launch your own crowdfunding campaigns with customizable details, funding goals, and deadlines
@@ -36,8 +34,8 @@ Before you begin, you need to install the following tools:
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/blockchain-crowdfunding-dapp.git
-cd blockchain-crowdfunding-dapp
+git clone https://github.com/yourusername/alchemy-crowdfund-dapp.git
+cd alchemy-crowdfund-dapp
 ```
 
 2. Install dependencies
