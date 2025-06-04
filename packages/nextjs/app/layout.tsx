@@ -6,8 +6,8 @@ import "~~/styles/globals.css";
 import { getMetadata } from "~~/utils/scaffold-alchemy/getMetadata";
 
 export const metadata = getMetadata({
-  title: "Crowdfund dApp - Blockchain Crowdfunding",
-  description: "Support projects you believe in with ETH - A decentralized crowdfunding platform built with Next.js and Alchemy",
+  title: "FUNraise",
+  description: "Support creators you believe in with SOL - A decentralized crowdFUN platform.",
 });
 
 const ScaffoldEthApp = ({ children }: { children: React.ReactNode }) => {

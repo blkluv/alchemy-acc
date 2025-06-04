@@ -30,3 +30,6 @@ p {
 .btn.btn-ghost {
   @apply shadow-none;
 }
+:root {
+  --doodles-stroke: 2px #2C3A47; /* Sketch-like outlines */
+}

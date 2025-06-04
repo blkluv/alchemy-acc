@@ -14,7 +14,7 @@ export type ScaffoldConfig = {
   expectedUserOpTime: number;
 };
 
-export const DEFAULT_ALCHEMY_API_KEY = "Aau4vg0U-46T4ZI857caO7otLxX3RVSo";
+export const DEFAULT_ALCHEMY_API_KEY = "wTpMvZ6Hc9jK_HFWd-vOJ37pbbXvzip9";
 
 const scaffoldConfig = {
   // The networks on which your DApp is live
@@ -39,7 +39,7 @@ const scaffoldConfig = {
   // You can get your own at https://cloud.walletconnect.com
   // It's recommended to store it in an env variable:
   // .env.local for local testing, and in the Vercel/system env config for live apps.
-  walletConnectProjectId: process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID || "3a8170812b534d0ff9d794f19a901d64",
+  walletConnectProjectId: process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID || "921a30b61d5fa562c571a496a85f79ab",
 } as const satisfies ScaffoldConfig;
 
 export default scaffoldConfig;

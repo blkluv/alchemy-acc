@@ -16,7 +16,7 @@ if (process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID) {
   ]);
 }
 
-const DEFAULT_ALCHEMY_GAS_POLICY_ID = "f0d2920d-b0dc-4e55-ab21-2fcb483bc293";
+const DEFAULT_ALCHEMY_GAS_POLICY_ID = "fb78b320-6bd2-4177-9cf0-a6b204b45b7d";
 const policyId = process.env.NEXT_PUBLIC_ALCHEMY_GAS_POLICY_ID || DEFAULT_ALCHEMY_GAS_POLICY_ID;
 
 export const config = createConfig(
