@@ -88,8 +88,8 @@ export const Header = () => {
             <Image alt="Alchemy logo" className="cursor-pointer" fill src="/logo.svg" />
           </div>
           <div className="flex flex-col">
-            <span className="font-bold leading-tight">Crowdfund dApp</span>
-            <span className="text-xs">Blockchain Crowdfunding</span>
+            <span className="font-bold leading-tight">FUN.</span>
+            <span className="text-xs">crowdFUN</span>
           </div>
         </Link>
         <ul className="hidden lg:flex lg:flex-nowrap menu menu-horizontal px-1 gap-2">

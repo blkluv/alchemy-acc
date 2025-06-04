@@ -1,5 +1,4 @@
 import { withAccountKitUi } from "@account-kit/react/tailwind";
-
 /** @type {import('tailwindcss').Config} */
 export default withAccountKitUi({
   content: ["./app/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}", "./utils/**/*.{js,ts,jsx,tsx}"],
@@ -76,6 +75,9 @@ export default withAccountKitUi({
   },
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["'Space Grotesk'", "Inter", "sans-serif"],
+      },
       boxShadow: {
         center: "0 0 12px -2px rgba(255, 158, 243, 0.3)", // Pink glow
         "doodle": "4px 4px 0px 0px #2C3A47", // Cartoonish offset shadow
