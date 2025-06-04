@@ -19,7 +19,7 @@ export default withAccountKitUi({
           "secondary-content": "#3C2A4D",
           accent: "#A5F3FC", // pastel aqua 🧘‍♀️
           "accent-content": "#1F2937",
-          neutral: "#E0F2FE", // cloud blue ☁️
+          neutral: "#E0F2FE", // cloud ☁️
           "neutral-content": "#1F2937",
           "base-100": "#FFFFFF",
           "base-200": "#FAF5FF", // lavender haze
