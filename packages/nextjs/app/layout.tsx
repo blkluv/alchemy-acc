@@ -7,7 +7,7 @@ import { getMetadata } from "~~/utils/scaffold-alchemy/getMetadata";
 
 export const metadata = getMetadata({
   title: "FUNraise ✨",
-  description: "Vibe with your tribe & fund what matters 🌈 Spiritual crowdfunding for the digital age",
+  description: "Vibe with your tribe & and crowdFUN a livestream show on irl.travel.",
 });
 
 const ScaffoldEthApp = ({ children }: { children: React.ReactNode }) => {
