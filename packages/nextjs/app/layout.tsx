@@ -6,22 +6,16 @@ import "~~/styles/globals.css";
 import { getMetadata } from "~~/utils/scaffold-alchemy/getMetadata";
 
 export const metadata = getMetadata({
-<<<<<<< HEAD
-  title: "FUNraise",
-  description: "Support creators you believe in with SOL - A decentralized crowdFUN platform.",
-=======
-  title: "FUN. - Blockchain Crowdfunding",
-  description: "Support creators you believe in with ETH - A decentralized crowdFUN platform.",
->>>>>>> e90d7e2396fb17a9baef77b4aa79da99088a9687
+  title: "FUNraise ✨",
+  description: "Vibe with your tribe & fund what matters 🌈 Spiritual crowdfunding for the digital age",
 });
-8
+
 const ScaffoldEthApp = ({ children }: { children: React.ReactNode }) => {
-  // This will allow us to persist state across page boundaries (read more here: https://accountkit.alchemy.com/react/ssr#persisting-the-account-state)
   const initialState = cookieToInitialState(config, headers().get("cookie") ?? undefined);
 
   return (
-    <html suppressHydrationWarning>
-      <body>
+    <html suppressHydrationWarning lang="en">
+      <body className="font-comic">
         <Providers initialState={initialState}>{children}</Providers>
       </body>
     </html>
