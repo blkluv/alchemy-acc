@@ -1,32 +1,5 @@
 "use client";
-
-import React, { useCallback, useRef, useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { Bars3Icon } from "@heroicons/react/24/outline";
-import { ConnectButton } from "~~/components/scaffold-alchemy";
-import { useOutsideClick } from "~~/hooks/scaffold-alchemy";
-
-type HeaderMenuLink = {
-  label: string;
-  href: string;
-  icon?: React.ReactNode;
-};
-
-export const menuLinks: HeaderMenuLink[] = [
-  {
-    label: "Home",
-    href: "/",
-  },
-];
-
-export const HeaderMenuLinks = () => {
-  const pathname = usePathname();
-
-  return (
-    <>
-      {menuLinks.map(({ label, href, icon }) => {
+.map(({ label, href, icon }) => {
         const isActive = pathname === href;
         return (
           <li key={href}>
