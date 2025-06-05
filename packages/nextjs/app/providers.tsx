@@ -1,5 +1,7 @@
 "use client";
 
+"use client";
+
 import { PropsWithChildren } from "react";
 import { AlchemyClientState } from "@account-kit/core";
 import { AlchemyAccountProvider } from "@account-kit/react";
@@ -11,7 +13,10 @@ export const Providers = (props: PropsWithChildren<{ initialState?: AlchemyClien
   return (
     <ThemeProvider enableSystem>
       <AlchemyAccountProvider config={config} queryClient={queryClient} initialState={props.initialState}>
-        <ScaffoldEthAppWithProviders>{props.children}</ScaffoldEthAppWithProviders>
+        <ScaffoldEthAppWithProviders>
+          <div className="doodle-bg fixed inset-0 -z-10 opacity-10" />
+          {props.children}
+        </ScaffoldEthAppWithProviders>
       </AlchemyAccountProvider>
     </ThemeProvider>
   );
